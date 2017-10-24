@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SessionKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/SessionKitSample-iOS/SessionKitSample-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/SessionKitSample-watchOS/SessionKitSample-watchOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/SessionKitSample-tvOS/SessionKitSample-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/SessionKitSample-OSX/SessionKitSample-OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
