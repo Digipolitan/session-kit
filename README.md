@@ -1,13 +1,13 @@
 SessionKit
 =================================
 
-[![Build Status](https://travis-ci.org/Digipolitan/dependency-injector.svg?branch=master)](https://travis-ci.org/Digipolitan/dependency-injector)
+[![Build Status](https://travis-ci.org/Digipolitan/dependency-injector.svg?branch=master)](https://travis-ci.org/Digipolitan/session-kit)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SessionKit.svg)](https://img.shields.io/cocoapods/v/SessionKit.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/SessionKit.svg?style=flat)](http://cocoadocs.org/docsets/SessionKit)
 [![Twitter](https://img.shields.io/badge/twitter-@Digipolitan-blue.svg?style=flat)](http://twitter.com/Digipolitan)
 
-Session kit.
+Session access for swift apps
 
 ## Installation
 
