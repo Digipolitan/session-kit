@@ -12,7 +12,7 @@ public class Session {
 
     private static var opened: Session?
 
-    public var userInfo: [String : Any] {
+    public var userInfo: [String: Any] {
         didSet {
             self.save()
         }
