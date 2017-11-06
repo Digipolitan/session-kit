@@ -13,19 +13,19 @@
 		7814AF388B8FF0022454D73C /* Pods_Tests_SessionKitTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E68B051E025A7981173BF /* Pods_Tests_SessionKitTests_iOS.framework */; };
 		90B1BA0C24C2871EB799A5FA /* Pods_Tests_SessionKitTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD9F1E044BDB575E20B2896 /* Pods_Tests_SessionKitTests_OSX.framework */; };
 		A3169DBA1DE05E8300BABAFD /* SessionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* SessionKit.framework */; };
-		A3169DD61DE0631900BABAFD /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* Session.swift */; };
-		A3169DE81DE06FD100BABAFD /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* Session.swift */; };
 		A3169DF81DE0718900BABAFD /* SessionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* SessionKit.framework */; };
 		A3169E151DE072C800BABAFD /* SessionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169E0C1DE072C700BABAFD /* SessionKit.framework */; };
-		A3169E761DE083D900BABAFD /* SessionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* SessionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E771DE083D900BABAFD /* SessionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* SessionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E781DE083D900BABAFD /* SessionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* SessionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E791DE083D900BABAFD /* SessionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* SessionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF331FB0E59A000FEDED /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF311FB0E59A000FEDED /* Session.swift */; };
+		A370DF341FB0E59A000FEDED /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF311FB0E59A000FEDED /* Session.swift */; };
+		A370DF351FB0E59A000FEDED /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF311FB0E59A000FEDED /* Session.swift */; };
+		A370DF361FB0E59A000FEDED /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF311FB0E59A000FEDED /* Session.swift */; };
+		A370DF371FB0E59A000FEDED /* SessionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF321FB0E59A000FEDED /* SessionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF381FB0E59A000FEDED /* SessionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF321FB0E59A000FEDED /* SessionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF391FB0E59A000FEDED /* SessionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF321FB0E59A000FEDED /* SessionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF3A1FB0E59A000FEDED /* SessionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF321FB0E59A000FEDED /* SessionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38EF2CA1DECF97000637484 /* SessionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* SessionKitTests.swift */; };
 		A38EF2CB1DECF97000637484 /* SessionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* SessionKitTests.swift */; };
 		A38EF2CC1DECF97000637484 /* SessionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* SessionKitTests.swift */; };
-		A3EAC50C1DE5FCBA00E4AA5E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* Session.swift */; };
-		A3EAC50D1DE5FCBB00E4AA5E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* Session.swift */; };
 		C79F156ED82ACF342D673F37 /* Pods_Frameworks_SessionKit_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F846A3DFCC7E2E15999E5FE /* Pods_Frameworks_SessionKit_watchOS.framework */; };
 		F82918AE16477F3D97E2F773 /* Pods_Frameworks_SessionKit_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8E2F37EC37DB9396120A4A /* Pods_Frameworks_SessionKit_OSX.framework */; };
 /* End PBXBuildFile section */
@@ -73,13 +73,13 @@
 		A3169DB91DE05E8300BABAFD /* SessionKitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SessionKitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DCC1DE0629100BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3169DD11DE062A000BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3169DD41DE0631900BABAFD /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A3169DDE1DE06EF400BABAFD /* SessionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SessionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DEF1DE0718900BABAFD /* SessionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SessionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DF71DE0718900BABAFD /* SessionKitTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SessionKitTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E0C1DE072C700BABAFD /* SessionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SessionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* SessionKitTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SessionKitTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3169E751DE083D900BABAFD /* SessionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionKit.h; sourceTree = "<group>"; };
+		A370DF311FB0E59A000FEDED /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		A370DF321FB0E59A000FEDED /* SessionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionKit.h; sourceTree = "<group>"; };
 		A38EF2C71DECF97000637484 /* SessionKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionKitTests.swift; sourceTree = "<group>"; };
 		A5D99F1C9227D09269441C22 /* Pods-Tests-SessionKitTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SessionKitTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-SessionKitTests-OSX/Pods-Tests-SessionKitTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		AFD652D67E8A7D91C63A29A0 /* Pods-Tests-SessionKitTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SessionKitTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-SessionKitTests-iOS/Pods-Tests-SessionKitTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -181,8 +181,7 @@
 		A3169DCA1DE0629100BABAFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A3169DD41DE0631900BABAFD /* Session.swift */,
-				A3169E751DE083D900BABAFD /* SessionKit.h */,
+				A370DF301FB0E59A000FEDED /* SessionKit */,
 				A3169DCC1DE0629100BABAFD /* Info.plist */,
 			);
 			path = Sources;
@@ -195,6 +194,15 @@
 				A3169DD11DE062A000BABAFD /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		A370DF301FB0E59A000FEDED /* SessionKit */ = {
+			isa = PBXGroup;
+			children = (
+				A370DF311FB0E59A000FEDED /* Session.swift */,
+				A370DF321FB0E59A000FEDED /* SessionKit.h */,
+			);
+			path = SessionKit;
 			sourceTree = "<group>";
 		};
 		A38EF2C61DECF97000637484 /* SessionKitTests */ = {
@@ -247,7 +255,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E781DE083D900BABAFD /* SessionKit.h in Headers */,
+				A370DF391FB0E59A000FEDED /* SessionKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +263,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E791DE083D900BABAFD /* SessionKit.h in Headers */,
+				A370DF3A1FB0E59A000FEDED /* SessionKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +271,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E761DE083D900BABAFD /* SessionKit.h in Headers */,
+				A370DF371FB0E59A000FEDED /* SessionKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +279,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E771DE083D900BABAFD /* SessionKit.h in Headers */,
+				A370DF381FB0E59A000FEDED /* SessionKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,7 +899,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169DD61DE0631900BABAFD /* Session.swift in Sources */,
+				A370DF331FB0E59A000FEDED /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,7 +915,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169DE81DE06FD100BABAFD /* Session.swift in Sources */,
+				A370DF341FB0E59A000FEDED /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,7 +923,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EAC50D1DE5FCBB00E4AA5E /* Session.swift in Sources */,
+				A370DF351FB0E59A000FEDED /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,7 +939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EAC50C1DE5FCBA00E4AA5E /* Session.swift in Sources */,
+				A370DF361FB0E59A000FEDED /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1011,6 +1019,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1064,6 +1073,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1277,7 +1287,6 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.sessionkit;
 				PRODUCT_NAME = SessionKit;
 				SDKROOT = macosx;
@@ -1301,7 +1310,6 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.sessionkit;
 				PRODUCT_NAME = SessionKit;
 				SDKROOT = macosx;
