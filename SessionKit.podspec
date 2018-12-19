@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "SessionKit"
-s.version = "1.0.2"
+s.version = "1.0.3"
 s.summary = "Session access for swift apps"
 s.homepage = "https://github.com/Digipolitan/session-kit"
 s.authors = "Digipolitan"
