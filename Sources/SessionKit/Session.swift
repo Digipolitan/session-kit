@@ -33,7 +33,12 @@ public class Session {
     }
 
     public subscript(key: String) -> Any? {
-        return self.userInfo[key]
+        get {
+            return self.userInfo[key]
+        }
+        set {
+            self.userInfo[key] = newValue
+        }
     }
 
     @discardableResult
